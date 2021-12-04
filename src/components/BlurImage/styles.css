@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+}
+
+.show {
+  top: 0;
+  left: 0;
+  position: absolute;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
+.hide {
+  top: 0;
+  left: 0;
+  position: absolute;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
